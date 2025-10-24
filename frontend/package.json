@@ -1,7 +1,9 @@
 {
-  "name": "frontend",
+  "name": "food-delivery-frontend",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "Customer frontend for Food Delivery Application",
+  "author": "Nishant",
   "type": "module",
   "scripts": {
     "dev": "vite",
