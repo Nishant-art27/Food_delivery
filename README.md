@@ -156,33 +156,4 @@ Payments: the backend contains endpoints to create Stripe payment intents/charge
 
 ## Uploads
 
-Food images are uploaded to the `backend/uploads` folder and served statically by Express. Make sure this folder exists and your backend serves it (usually via `express.static`).
-
-## Make it yours (remove references & present as your project)
-
-To make this repo clearly yours:
-
-- Update the top-level `README.md` author section below with your name and contact details.
-- Remove or change any demo/demo links and replace with your deployed URLs.
-- Update `package.json` `author` fields in `frontend`, `admin`, and `backend` if present.
-- Set your own Git remote (replacing any existing origin) so the repo points to your GitHub:
-
-```powershell
-# replace origin with your new repo
-git remote remove origin
-git remote add origin https://github.com/<your-username>/<your-repo>.git
-git push -u origin main
-```
-
-Note: changing the README and package.json will not rewrite git history — if you need to remove historical references from commits, that's a separate, advanced operation (rewriting history). Use that carefully.
-
-## Troubleshooting
-
-- If a port is already in use, change ports in the `vite.config.js` or the backend `PORT` env.
-- If Mongo connection fails, verify `MONGO_URL` and that network access is enabled for Atlas.
-
-## Where to customize next
-
-- Add seed data scripts to populate sample foods.
-- Add unit/integration tests.
-- Add CI/CD (GitHub Actions) to run lint/tests and deploy.
+Food images are uploaded to the `backend/uploads` folder and served statically by Express.
